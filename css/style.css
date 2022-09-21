@@ -1,0 +1,141 @@
+@font-face {
+  font-family: "Oswald";
+  src: url("../fonts/Oswald-Regular.woff2") format("woff2"),
+    url("../fonts/Oswald-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Oswald";
+  src: url("../fonts/Oswald-Bold.woff2") format("woff2"),
+    url("../fonts/Oswald-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+header,
+main,
+footer {
+  margin: 15px;
+}
+
+h1 {
+  font-size: 30px;
+  line-height: 2;
+  color: #0000ff;
+  text-align: center;
+  text-decoration: underline;
+  text-shadow: 5px 2px 10px #0d0d44;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.title {
+  font-family: "Oswald";
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 1.5;
+  color: #e21e1e;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+.subtitle {
+  font-family: "Oswald";
+  font-weight: 400;
+  margin: 20px 0 10px;
+  padding: 0 0 0 15px;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #0b8311;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+.main-heading p {
+  font-weight: 700;
+  font-style: normal;
+  margin: 10px;
+  padding: 5px;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #5050b1;
+  text-align: left;
+  text-decoration: none;
+  text-indent: 20px;
+  letter-spacing: 1.2px;
+  word-spacing: 2px;
+  white-space: wrap;
+}
+
+.heading > p {
+  font-weight: 400;
+  font-style: normal;
+  margin: 10px;
+  padding: 5px;
+  font-size: 18px;
+  line-height: 1.2;
+  color: #2886c5;
+  text-align: left;
+  text-decoration: none;
+  text-transform: lowercase;
+  text-indent: 15px;
+  letter-spacing: 1.1px;
+  word-spacing: 4px;
+  white-space: wrap;
+}
+
+.subtitle ~ p {
+  font-weight: 400;
+  font-style: normal;
+  margin: 10px;
+  font-size: 17px;
+  line-height: 1.2;
+  color: #38582f;
+  text-align: left;
+  text-decoration: none;
+  text-transform: none;
+  word-spacing: 3px;
+}
+
+.subtitle + p {
+  margin: 10px;
+  font-size: 17px;
+  line-height: 1.2;
+  color: #96ca1c;
+  text-align: left;
+  text-decoration: none;
+  text-transform: none;
+  text-indent: 10px;
+  word-spacing: 3px;
+}
+
+img {
+  width: 600px;
+  height: 500px;
+  max-width: 100%;
+}
+
+span {
+  font-size: 15px;
+  color: rgba(223, 39, 78, 0.9);
+  text-decoration: underline;
+  text-transform: capitalize;
+  letter-spacing: 1.5;
+  word-spacing: 2px;
+}
+
+.list li {
+  margin: 0 0 5px 0;
+  color: #5050b1;
+  list-style: none;
+  text-decoration: overline;
+  text-align: right;
+}
